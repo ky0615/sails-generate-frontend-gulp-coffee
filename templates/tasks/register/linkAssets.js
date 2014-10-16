@@ -1,12 +1,13 @@
 module.exports = function (gulp, plugins) {
 	gulp.task('linkAssets', function(cb) {
 		plugins.sequence(
-			'sails-linker-gulp:devJs',
-			'sails-linker-gulp:devStyles',
-			'sails-linker-gulp:devTpl',
-			/*'sails-linker-gulp:devJsJade',
-			'sails-linker-gulp:devStylesJade',
-			'sails-linker-gulp:devTplJade' */
+<<<<<<< HEAD
+            'sails-linker-gulp:devAssets',
+            'sails-linker-gulp:devViews',
+=======
+			'sails-linker-gulp:devAssets',
+			'sails-linker-gulp:devViews',
+>>>>>>> origin/master
 			cb
 		);
 	});
