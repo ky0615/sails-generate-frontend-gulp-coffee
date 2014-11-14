@@ -11,10 +11,10 @@ A `frontend` generator for use with the Sails command-line interface that works 
 Certain generators are installed by default in Sails, but they can be overridden.  Check the [Sails docs](http://sailsjs.org/#!documentation) for information on installing generator overrides / custom generators.
 
 ```sh
-$ npm install -g sails-generate-backend-gulp
-$ npm install -g sails-generate-gulpfile
-$ npm install -g sails-generate-frontend-gulp
-$ npm install -g sails-generate-new-gulp
+$ npm install -g sails-generate-backend-gulp-coffee
+$ npm install -g sails-generate-gulpfile-coffee
+$ npm install -g sails-generate-frontend-gulp-coffee
+$ npm install -g sails-generate-new-gulp-coffee
 
 ```
 
@@ -26,10 +26,10 @@ $ npm install -g sails-generate-new-gulp
 {
     "generators": {
         "modules": {
-            "new": "sails-generate-new-gulp",
-            "frontend": "sails-generate-frontend-gulp",
-            "backend": "sails-generate-backend-gulp",
-            "gulpfile": "sails-generate-gulpfile"
+            "new": "sails-generate-new-gulp-coffee",
+            "frontend": "sails-generate-frontend-gulp-coffee",
+            "backend": "sails-generate-backend-gulp-coffee",
+            "gulpfile": "sails-generate-gulpfile-coffee"
         }
     }
 }
